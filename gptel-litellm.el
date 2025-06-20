@@ -81,7 +81,7 @@ LiteLLM."
         (setq-local gptel--request-params
                     (gptel--merge-plists
                      gptel--request-params
-                     (list :litellm_session session-id)))))))
+                     (list :litellm_session_id session-id)))))))
 
 (defun gptel-litellm-install-sessions ()
   "Add support for session-ids when using LiteLLM backends."
