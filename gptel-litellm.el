@@ -1,4 +1,4 @@
-;;; gptel-litellm --- Definitions GPTel and LiteLLM -*- lexical-binding: t -*-
+;;; gptel-litellm --- Helper code for using GPTel with LiteLLM -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2025 John Wiegley
 
