@@ -1,0 +1,16 @@
+#+title: gptel-litellm
+
+This package offers some helper code to facilitate using GPTel with LiteLLM.
+
+** Installation and Usage
+
+First ensure you have LiteLLM installed and running, and that GPTel has been
+configured with a backend to use it. That backend should include the word
+“LiteLLM”, or else configure =gptel-litellm-backend-name-re=.
+
+#+begin_src elisp
+(use-package gptel-litellm
+  :after (gptel)
+  :config
+  (gptel-litellm-install-sessions))
+#+end_src
