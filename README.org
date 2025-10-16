@@ -1,6 +1,7 @@
 #+title: gptel-litellm
 
-This package offers some helper code to facilitate using GPTel with LiteLLM.
+This package offers some helper code to facilitate using GPTel with LiteLLM
+Proxy.
 
 ** Installation and Usage
 
